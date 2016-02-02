@@ -1,7 +1,5 @@
 # MEANr-api
-Express API server
-
-Part of [MEANr](https://github.com/christurnbull/MEANr) - A MEAN relational stack
+Express API server. Part of [MEANr](https://github.com/christurnbull/MEANr) - A MEAN relational stack
 
 DEMO: https://meanr.io
 
@@ -9,7 +7,7 @@ DEMO: https://meanr.io
 
 1. Make sure you have [Node.js and npm](https://nodejs.org) installed
 
-2. Clone this repo ``` git clone https://github.com/christurnbull/MEANr-api.git ```
+2. Fork or Clone this repo ``` git clone https://github.com/christurnbull/MEANr-api.git ```
 
 3. Install dependencies ``` npm install ```
 
