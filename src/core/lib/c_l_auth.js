@@ -109,8 +109,6 @@ module.exports = function(app, db, lib) {
               if (hasRole) {
                 return next();
               }
-              console.log(typeof targetUid)
-              console.log(typeof decoded.sub.userId)
               if (targetUid && targetUid !== decoded.sub.userId.toString()) {
                 return next(app.appErr([{
                   msg: 'ACL permission denied',
