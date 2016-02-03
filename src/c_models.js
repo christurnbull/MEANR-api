@@ -42,9 +42,13 @@ module.exports = function(app, db) {
       return;
     }
     var filename = file.substr(0, file.indexOf('.'));
-    var name = filename.replace(/^u_m_/, '');
+    var name = filename.replace(/^m_/, '');
     model[name] = db.import(__dirname + '/usr/models/' + filename);
   });
+  
+  /**
+   * usr relationships
+   */
 
 
   return model; // models are available in db.models
