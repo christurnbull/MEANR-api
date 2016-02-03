@@ -28,7 +28,7 @@ module.exports = function(app, lib) {
   /**
    * usr routes
    */
-  dir = __dirname + '/usr/routes';
+  dir = __dirname + '/usr/routes/';
   fs.readdirSync(dir).forEach(function(file) {
     if (file.substr(file.lastIndexOf('.') + 1) !== 'js') {
       return;
