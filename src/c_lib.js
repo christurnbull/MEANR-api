@@ -63,6 +63,6 @@ module.exports = function(app, db) {
   /**
    * usr library modules
    */
-  libEx.usr.schedule = require('./usr/u_schedule')(app, db, libEx);
+  libEx.usr.schedule = require('./usr/schedule')(app, db, libEx);
   return libEx;
 };
