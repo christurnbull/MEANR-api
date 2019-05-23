@@ -48,7 +48,7 @@
     "minigun-core": "^1.2.11",
     "moment": "^2.9.0",
     "morgan": "^1.5.1",
-    "mysql": "~2.7.0",
+    "mysql": "~2.14.0",
     "node-schedule": "^0.1.16",
     "nodemailer": "^1.3.0",
     "nodemailer-mailgun-transport": "^1.0.1",
