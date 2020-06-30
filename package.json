@@ -36,7 +36,7 @@
     "express-brute": "^0.6.0",
     "express-brute-redis": "0.0.1",
     "express-jsonschema": "git+https://github.com/christurnbull/express-jsonschema.git",
-    "express-jwt": "~3.0.1",
+    "express-jwt": "~6.0.0",
     "express-session": "^1.13.0",
     "fakeredis": "^1.0.2",
     "geoip-lite": "^1.1.6",
